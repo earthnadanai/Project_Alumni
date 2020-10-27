@@ -84,4 +84,16 @@ class Model_register extends CI_Model
         $this->db->where('id', $id);
         $this->db->update('user', $data);
     }
+    function show_search($search)
+    {
+        $this->db->like('user' . "." . 'firstname', $search);
+        $this->db->like('user' . "." . 'lastname', $search);
+        $this->db->or_like('user' . "." . 'id', $search);
+        $this->db->or_like('user' . "." . 'username', $search);
+        $this->db->or_like('user' . "." . 'email', $search);
+        $this->db->or_like('user' . "." . 'codestu', $search);
+        $result = $this->db->get('user');
+
+        return $result->result();
+    }
 }

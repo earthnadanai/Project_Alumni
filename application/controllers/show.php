@@ -70,4 +70,11 @@ class Show extends CI_Controller
         $data['re'] = $this->Alumni->showprofile($a);
         $this->load->view('profile',$data);
     }
+
+    public function search()
+    {
+        $search =   $this->input->post('search');
+        $data['xx'] = $this->Alumni->show_search($search);
+        $this->load->view('view_search', $data);
+    }
 }
