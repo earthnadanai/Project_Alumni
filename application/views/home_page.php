@@ -17,7 +17,7 @@
   <div class="bg-success"><h2>Login</h2></div>
   <div class="card-body text-success">
     <p class="card-text">   
-    <form action="Login/login_x" method="post">
+    <form action="login_x" method="post">
   <div class="form-group">
     <label for="email">ชื่อผู้ใช้</label>
     <input type="email" name="email" placeholder="email" required>
@@ -28,7 +28,7 @@
   </div>
   <input type="submit" name="login"  class="btn btn-success" value="Login" />
   <br><br>
-  <p align="center"><a href="<?php echo site_url('Register'); ?>">Go to register</a></p>
+  <p align="center"><a href="<?php echo site_url('Welcome/page_register'); ?>">Go to register</a></p>
 </form>
   </div>
   <div class="card-footer bg-success"></div>

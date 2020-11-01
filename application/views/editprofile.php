@@ -67,7 +67,7 @@
 
 
   <input type="submit" class="btn btn-success" name="submit" value="ตกลง">
-  <a href="<?php echo site_url('Show/profile'); ?>"><input type="button" value=" ยกเลิก " class="btn btn-danger" />
+  <a href="<?php echo site_url('Welcome/profile'); ?>"><input type="button" value=" ยกเลิก " class="btn btn-danger" />
 
 
 

@@ -15,7 +15,7 @@
 <div class="container">
 <nav aria-label="breadcrumb">
 					<ol class="breadcrumb SpaceStyle" style="background-color: #111111">
-						<li class="breadcrumb-item"><a href="<?php echo site_url('Show/showall'); ?>">home</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo site_url('Welcome/showall'); ?>">home</a></li>
             <li class="breadcrumb-item active" aria-current="page">ดูเพิ่มเติม</li>
 					</ol>
 				</nav>

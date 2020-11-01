@@ -26,7 +26,7 @@
     <div class="container">
     <nav aria-label="breadcrumb">
 					<ol class="breadcrumb SpaceStyle" style="background-color: #111111">
-						<li class="breadcrumb-item"><a href="<?php echo site_url('Show/profile'); ?>">Profile</a></li>
+						<li class="breadcrumb-item"><a href="<?php echo site_url('Welcome/profile'); ?>">Profile</a></li>
 					</ol>
                 </nav>
         <h1 align="center">You are Member</h1>
@@ -40,7 +40,7 @@
 </div>
 </div>
     </div>
-    <p align="center"><a href="<?php echo site_url('Show/showedit'); ?>" class="btn btn-outline-success">Edit Profile</a></p>      
+    <p align="center"><a href="<?php echo site_url('Welcome/showedit'); ?>" class="btn btn-outline-success">Edit Profile</a></p>      
 <?php 
 }
 ?>

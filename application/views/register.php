@@ -18,7 +18,7 @@
   <div class="bg-success"><h2>Login</h2></div>
   <div class="card-body text-success">
     <p class="card-text">   
-    <form action="Register/Register" method="post">
+    <form action="Welcome/Register" method="post">
   <div class="form-group">
     <label for="username">ชื่อผู้ใช้</label>
     <input class="form-control" type="text" name="username" placeholder="Username" required>
@@ -80,7 +80,7 @@
   </div>
   <button type="submit" name="submit" class="btn btn-success"> Regiter</button>
   <br><br>
-  <p align="center"><a href="<?php echo site_url('Home'); ?>">Go back to login</a></p>
+  <p align="center"><a href="<?php echo site_url('Welcome/index'); ?>">Go back to login</a></p>
 </form>
   </div>
   <div class="card-footer bg-success"></div>
