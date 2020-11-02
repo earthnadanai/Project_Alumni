@@ -18,7 +18,7 @@
   <div class="bg-success"><h2>Login</h2></div>
   <div class="card-body text-success">
     <p class="card-text">   
-    <form action="Welcome/Register" method="post">
+    <form action="Register" method="post">
   <div class="form-group">
     <label for="username">ชื่อผู้ใช้</label>
     <input class="form-control" type="text" name="username" placeholder="Username" required>
